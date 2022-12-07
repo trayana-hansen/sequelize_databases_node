@@ -9,7 +9,7 @@ ArtistRouter.get('/artist', (req, res) => {
 ArtistRouter.get('/artist/:id([0-9]*)', (req, res) => {
 	controller.details(req, res)
 })
-ArtistRouter.post('/artist/:id([0-9]*)', (req, res) => {
+ArtistRouter.post('/artist', (req, res) => {
 	controller.create(req, res)
 })
 ArtistRouter.put('/artist/:id([0-9]*)', (req, res) => {

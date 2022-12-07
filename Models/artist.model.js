@@ -1,4 +1,4 @@
-import  sequelize from '../Config/sequelize.config.js'
+import sequelize from '../Config/sequelize.config.js'
 import { DataTypes, Model } from 'sequelize'
 
 class ArtistModel extends Model{}
