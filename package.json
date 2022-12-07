@@ -1,0 +1,24 @@
+{
+  "name": "sequelize_databases_node",
+  "version": "1.0.0",
+  "description": "populating database through sequelize",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "test": "test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/trayana-hansen/sequelize_databases_node.git"
+  },
+  "keywords": [
+    "sequelize",
+    "mysql"
+  ],
+  "author": "trayana_hansen",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/trayana-hansen/sequelize_databases_node/issues"
+  },
+  "homepage": "https://github.com/trayana-hansen/sequelize_databases_node#readme"
+}
