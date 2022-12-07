@@ -20,5 +20,11 @@
   "bugs": {
     "url": "https://github.com/trayana-hansen/sequelize_databases_node/issues"
   },
-  "homepage": "https://github.com/trayana-hansen/sequelize_databases_node#readme"
+  "homepage": "https://github.com/trayana-hansen/sequelize_databases_node#readme",
+  "dependencies": {
+    "dotenv": "^16.0.3",
+    "express": "^4.18.2",
+    "nodemon": "^2.0.20",
+    "sequelize": "^6.26.0"
+  }
 }
