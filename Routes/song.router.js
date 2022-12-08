@@ -9,7 +9,7 @@ SongRouter.get('/song', (req, res) => {
 SongRouter.get('/song/:id([0-9]*)', (req, res) => {
 	controller.details(req, res)
 })
-SongRouter.post('/song/:id([0-9]*)', (req, res) => {
+SongRouter.post('/song', (req, res) => {
 	controller.create(req, res)
 })
 SongRouter.put('/song/:id([0-9]*)', (req, res) => {

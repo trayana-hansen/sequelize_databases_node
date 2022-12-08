@@ -1,4 +1,8 @@
 import SongModel from '../Models/song.model.js'
+import ArtistModel from '../Models/artist.model.js'
+
+ArtistModel.hasMany(SongModel)
+SongModel.belongsTo(ArtistModel)
 
 class SongController {
 
@@ -26,13 +30,14 @@ class SongController {
 			res.json(result)
 		}
 	create = async (req, res) => {
-			const { title, content }  = req.body;
-			if(title && content) {
+			const { title, content, artist_id }  = req.body;
+			if(title && content && artist_id) {
 			const model = await SongModel.create(req.body)
 			res.json({ newId: model.id })
 				} else {
 					res.sendStatus(418)
 				}
+
 		}
 	update = async (req, res) => {
 			const { id } = req.params || 0

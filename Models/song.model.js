@@ -14,18 +14,14 @@ SongModel.init({
 		allowNull: false,
 		defaultValue: 'Ikke navngivet'
 	},
-	lastname: {
-			type: DataTypes.STRING,
-			allowNull: false
-	},
 	content: {
 		type: DataTypes.STRING,
 		allowNull: false
 	},
 	artist_id: {
-		type: DataTypes.BIGINT,
-		allowNull: false,
-		foreignKey: true
+		type: DataTypes.INTEGER,
+		allowNull: false
+
 	}
 }, {
 	sequelize,
